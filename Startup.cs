@@ -50,6 +50,7 @@ namespace pipelines_dotnet_core
             }
 
             app.UseHttpsRedirection();
+			app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
